@@ -1,0 +1,39 @@
+.root{
+    -fx-background-color: #000000;
+}
+
+.button{
+    -fx-alignment: BOTTOM_CENTER;
+    -fx-background-color: #FCA311;
+    -fx-text-fill: #E5E5E5;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+}
+.button:hover{
+    -fx-background-color: #14213D;
+    -fx-border-color: #FCA311;
+    -fx-border-width: 1;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+}
+
+.label{
+    -fx-alignment: center;
+    -fx-font-size: 40;
+    -fx-text-fill: #FCA311;
+    -fx--font-family: "Leelawadee UI Semilight";
+    -fx-font-weight: 40;
+}
+
+#logoutButton{
+    -fx-text-fill: red;
+}
+
+#databaseButton{
+    -fx-text-fill: #3DBBFE;
+}
+
+#routineButton{
+    -fx-text-fill: #3DBBFE;
+}
+

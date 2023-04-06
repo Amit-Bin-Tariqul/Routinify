@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="518.0" prefWidth="800.0" stylesheets="@ModifyClassroom.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.routinify.ModifyClassroomController">
+    <children>
+        <TextField fx:id="ClassroomNo" layoutX="268.0" layoutY="187.0" prefHeight="25.0" prefWidth="264.0" promptText="Room" />
+        <TextField fx:id="AcademicBuilding" layoutX="266.0" layoutY="259.0" prefHeight="25.0" prefWidth="264.0" promptText="Bulding" />
+        <Button layoutX="267.0" layoutY="316.0" mnemonicParsing="false" onAction="#onClickAdd" prefHeight="32.0" prefWidth="264.0" text="Add" />
+        <Button layoutX="266.0" layoutY="370.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="32.0" prefWidth="264.0" text="Back" />
+      <Label layoutX="268.0" layoutY="160.0" prefHeight="21.0" prefWidth="264.0" text="Room Number:">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="231.0" prefHeight="21.0" prefWidth="264.0" text="Academic Building Number:">
+         <font>
+            <Font name="Leelawadee UI Semilight" size="15.0" />
+         </font>
+      </Label>
+      <Rectangle height="520.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="155.0">
+         <fill>
+            <LinearGradient endY="0.75709779781498">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9882352948188782" green="0.6392157077789307" blue="0.06666667014360428" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.0784313753247261" green="0.12941177189350128" blue="0.239215686917305" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle height="520.0" layoutX="645.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="155.0">
+         <fill>
+            <LinearGradient endY="0.75709779781498">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9882352948188782" green="0.6392157077789307" blue="0.06666667014360428" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.0784313753247261" green="0.12941177189350128" blue="0.239215686917305" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label id="modClassroomLabel" alignment="CENTER" layoutY="57.0" prefWidth="800.0" text="Add Classroom" />
+    </children>
+</AnchorPane>

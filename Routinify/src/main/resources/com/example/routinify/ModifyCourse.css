@@ -1,0 +1,42 @@
+.root{
+    -fx-background-color: #000000;
+}
+
+.text-field:focused{
+    -fx-border-color: #FCA311;
+    -fx-border-width: 1;
+}
+
+.button{
+    -fx-background-color: #FCA311;
+    -fx-border-width: 1;
+    -fx-border-radius : 15;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 15;
+    -fx-font-size: 15;
+
+}
+
+.button:hover{
+    -fx-background-color: #14213d;
+    -fx-border-color: #FCA311;
+    -fx-border-width: 1;
+    -fx-border-radius: 25;
+    -fx-background-radius: 25;
+    -fx-font-size: 15;
+    -fx-text-fill: #FCA311;
+}
+
+.label{
+    -fx-text-fill: #FCA311;
+    -fx-font-family: "Leelawadee UI Semilight";
+    -fx-font-weight: bold;
+    /*-fx-font-style: "bold";*/
+}
+
+#modCourseLabel{
+    -fx-text-fill: #FCA311;
+    -fx-font-size: 40;
+    -fx-alignment: center;
+    -fx-font-family: "Leelawadee UI Semilight";
+}

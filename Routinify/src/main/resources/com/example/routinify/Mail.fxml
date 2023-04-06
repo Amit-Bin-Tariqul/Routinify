@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="800.0" stylesheets="@Mail.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.routinify.MailController">
+   <children>
+      <TextField fx:id="email" layoutX="260.0" layoutY="299.0" prefHeight="26.0" prefWidth="279.0" promptText="Email" />
+      <Label fx:id="emLabel" layoutX="260.0" layoutY="235.0" prefHeight="18.0" prefWidth="174.0" />
+      <Button layoutX="261.0" layoutY="384.0" mnemonicParsing="false" onAction="#onClickOK" prefHeight="26.0" prefWidth="279.0" text="Ok" />
+      <TextField fx:id="user" layoutX="260.0" layoutY="209.0" prefHeight="26.0" prefWidth="279.0" promptText="Username" />
+      <Label fx:id="usLabel" layoutX="265.0" layoutY="325.0" prefHeight="18.0" prefWidth="174.0" />
+      <Label layoutX="260.0" layoutY="179.0" prefHeight="17.0" prefWidth="279.0" text="Username:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="261.0" layoutY="271.0" prefHeight="17.0" prefWidth="279.0" text="Email:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label id="mailLabel" layoutY="51.0" prefWidth="800.0" text="Credential Verification" />
+      <Rectangle height="518.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="155.0">
+         <fill>
+            <LinearGradient endY="0.6750788628490941">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9882352948188782" green="0.6392157077789307" blue="0.06666667014360428" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.0784313753247261" green="0.12941177189350128" blue="0.239215686917305" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle height="518.0" layoutX="645.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="155.0">
+         <fill>
+            <LinearGradient endY="0.6750788628490941">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9882352948188782" green="0.6392157077789307" blue="0.06666667014360428" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.0784313753247261" green="0.12941177189350128" blue="0.239215686917305" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+   </children>
+</AnchorPane>
